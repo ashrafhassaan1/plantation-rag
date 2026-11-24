@@ -1,0 +1,5 @@
+id,company,category,question,answer,pages,evidence
+q001,klk_2025,single_fact,"What share of KLK's oil palm planted area is located in Indonesia?","57%",28,"57% of the oil palm planted area is in Indonesia"
+q002,klk_2025,single_fact,"How large is the total plantation landbank of KLK?","355,828 hectares",28,"a landbank of 355,828 hectares"
+q003,klk_2025,single_fact,"How many of its own palm oil mills does KLK use to process fresh fruit bunches?","34",28,"34 of KLK's own palm oil mills"
+q004,klk_2025,single_fact,"What was the weighted average age of the Group's palms in FY2025?","13.9 years",37,"weighted average age of palms stood at 13.9 years"
