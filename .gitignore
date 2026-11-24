@@ -1,0 +1,15 @@
+# secrets - never upload these
+.env
+
+# data and generated files (too big, and the reports are not mine to redistribute)
+data/
+*.pdf
+*.json
+chroma/
+cache/
+
+# python junk
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
