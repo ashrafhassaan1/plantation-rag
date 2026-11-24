@@ -40,5 +40,5 @@ The right chunk (p.18-19, Tan Sri Peter Chin Fah Kui, Non-Independent Non-Execut
 ### "What climate change risks does SD Guthrie identify?"
 The useful chunk (p.49-50, uncertain weather conditions and global warming) came 4th, behind general sustainability text.
 
-### "How many hectares of oil palm does KLK have planted in Indonesia?"
-Top result (p.28-29) gives the total landbank and names Indonesia, but I need to check whether it contains the Indonesia-only number. Real answer found on page: TODO (fill in from the PDF).
+### "How many hectares of oil palm does KLK have planted in Indonesia?" (bad question, not bad retrieval)
+The top result (p.28-29) was the right page. But the report gives only a percentage there: 57% of oil palm planted area is in Indonesia (out of 301,090 ha planted). It never states an Indonesia-only hectare figure in the text. Multiplying the percentages would give about 168,000 ha, but that is my own arithmetic on rounded numbers, so it cannot be a gold answer. Lesson: a question the document cannot answer directly makes a correct system look wrong. I rewrote it as "What share of KLK's oil palm planted area is in Indonesia?" (57%, p.28).
