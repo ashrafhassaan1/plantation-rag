@@ -40,5 +40,18 @@ The right chunk (p.18-19, Tan Sri Peter Chin Fah Kui, Non-Independent Non-Execut
 ### "What climate change risks does SD Guthrie identify?"
 The useful chunk (p.49-50, uncertain weather conditions and global warming) came 4th, behind general sustainability text.
 
+
 ### "How many hectares of oil palm does KLK have planted in Indonesia?" (bad question, not bad retrieval)
 The top result (p.28-29) was the right page. But the report gives only a percentage there: 57% of oil palm planted area is in Indonesia (out of 301,090 ha planted). It never states an Indonesia-only hectare figure in the text. Multiplying the percentages would give about 168,000 ha, but that is my own arithmetic on rounded numbers, so it cannot be a gold answer. Lesson: a question the document cannot answer directly makes a correct system look wrong. I rewrote it as "What share of KLK's oil palm planted area is in Indonesia?" (57%, p.28).
+
+
+## Baseline retrieval results
+
+### Dense-only baseline (chunk size 1200, bge-small, no company filter, 42 questions)
+Right page ranked 1st on 33% of questions (recall@1 0.33), in the top 3 on 69%, top 5 on 74%, top 10 on 79%. MRR 0.51. Nine questions never reached the top 10. By category, name-and-role questions were weakest (recall@5 0.50). Every later change is compared to this table.
+
+### Where it failed
+Three misses are SD Guthrie's "Group at a Glance" page (landbank, mills, countries). Three are lists of names and addresses (KLK auditor, IOI committee chair, IOI auditor). Three are single facts on narrative pages (KLK older palms, IOI employees, IOI net zero target). Cause not yet confirmed.
+
+### Small test set
+With 42 questions, one question is worth about 2.4 points of recall. Differences of a few points between configurations are not evidence. I need either bigger gaps or more questions.
